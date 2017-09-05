@@ -25,13 +25,8 @@ else
 end
 
 # Задача 4-4
-orelReshka = rand(11)
-
-if  orelReshka == 10
-	puts 'Ребро' + orelReshka.to_s
-elsif orelReshka > 4
-	puts 'Решка' + orelReshka.to_s
-else
-	puts 'Орёл' + orelReshka.to_s
+if rand(2) == 1
+	puts 'Выпал орел'
+else 
+	puts 'Выпала решка'
 end
-
