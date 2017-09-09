@@ -6,5 +6,6 @@ puts string1, string2
 string1, string2 = string2, string1
 
 puts string1, string2
+name = gets
 
 
